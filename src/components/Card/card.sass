@@ -1,0 +1,38 @@
+.cards
+  display: flex
+  align-items: center
+  justify-content: space-between
+  flex-wrap: wrap
+.card
+  flex-basis: 270px
+  background: #fff
+  border-radius: var(--border-radius-size)
+  min-height: 400px
+  max-height: 400px
+  overflow: hidden
+  margin-bottom: 18px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  &__img
+  &__title
+    font-family: var(--font-arvo)
+    color: var(--color-dark)
+    font-size: var(--font-title-size)
+    margin-bottom: 5px
+
+  &__desc
+    font-family: var(--font-text)
+    color: var(--color-grey)
+    font-size: var(--font-text-size)
+  &__price
+    font-family: var(--font-montserrat)
+    color: var(--color-bold-dark)
+    font-weight: bold
+  &__inner
+    padding: 17px 25px
+
+  &__info
+    display: flex
+    align-items: center
+    justify-content: space-between
